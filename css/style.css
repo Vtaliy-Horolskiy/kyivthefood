@@ -2535,6 +2535,9 @@ h2,
 
   .hero-gallery__inner {
     padding: 0 15px 0 30px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
   }
 }
 
