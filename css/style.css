@@ -2528,6 +2528,16 @@ h2,
   }
 }
 
+@media (max-width: 565px) {
+  .hero-gallery__slides {
+    margin: 0 -30px;
+  }
+
+  .hero-gallery__inner {
+    padding: 0 15px 0 30px;
+  }
+}
+
 @media (max-width: 480px) {
   h1,
   .h1 {
@@ -2553,6 +2563,14 @@ h2,
     width: 150px;
     -ms-flex-negative: 0;
         flex-shrink: 0;
+  }
+
+  .hero-gallery__inner {
+    grid-auto-columns: minmax(286px, 1fr);
+  }
+
+  .hero-gallery__slides {
+    height: 286px;
   }
 }
 
