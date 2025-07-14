@@ -1163,6 +1163,7 @@ h2,
   -webkit-transition: all ease .3s;
   -o-transition: all ease .3s;
   transition: all ease .3s;
+  color: #000000;
 }
 
 .our-menu__tab-btn--active {
