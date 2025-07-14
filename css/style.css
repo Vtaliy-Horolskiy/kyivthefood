@@ -966,6 +966,7 @@ h2,
   -o-transition: all ease .3s;
   transition: all ease .3s;
   text-align: left;
+  color: #000000;
 }
 
 .tabs-hero__btn:hover {
