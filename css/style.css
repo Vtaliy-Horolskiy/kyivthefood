@@ -1501,8 +1501,15 @@ h2,
   margin-bottom: 20px;
 }
 
+.cart-order__icon {
+  max-width: 50px;
+  margin: 0 auto;
+  display: block;
+}
+
 .cart-order__icon img {
   margin: 0 auto;
+  width: 100%;
 }
 
 .about {
@@ -1593,7 +1600,13 @@ h2,
 }
 
 .cart-about__icon {
-  margin-bottom: 15px;
+  display: block;
+  margin: 0 auto 15px;
+  width: 70px;
+}
+
+.cart-about__icon img {
+  width: 100%;
 }
 
 .cart-about__heading {
