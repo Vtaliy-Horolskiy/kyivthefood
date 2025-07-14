@@ -1192,8 +1192,7 @@ h2,
 .our-menu__scroll {
   height: 720px;
   overflow-x: hidden;
-  overflow-y: auto;
-  scrollbar-gutter: stable;
+  overflow-y: scroll;
 }
 
 .our-menu__scroll::-webkit-scrollbar {
@@ -1341,10 +1340,9 @@ h2,
   grid-auto-columns: minmax(345px, 1fr);
   gap: 30px;
   overflow-y: hidden;
-  overflow-x: auto;
+  overflow-x: scroll;
   height: 100%;
   padding-bottom: 50px;
-  scrollbar-gutter: stable;
 }
 
 .hero-gallery__inner::-webkit-scrollbar {
