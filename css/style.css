@@ -500,7 +500,7 @@ p {
 }
 
 b {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 ._container {
@@ -592,7 +592,7 @@ b {
   border-radius: 40px;
   font-size: 18px;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 700;
   -webkit-transition: all ease .3s;
   -o-transition: all ease .3s;
   transition: all ease .3s;
@@ -1154,7 +1154,7 @@ h2,
   border: 1px solid #000000;
   font-size: 18px;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 700;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -1281,7 +1281,7 @@ h2,
 .menu-table__head .menu-table__item {
   font-size: 18px;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .menu-table__list li {
@@ -1320,7 +1320,7 @@ h2,
 
 .menu-table__category-item .menu-table__item--category {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .menu-table__category-item .menu-table__item--name {
@@ -1692,7 +1692,7 @@ h2,
 
 .card-checkout-info__subheading {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1;
 }
 
@@ -1731,7 +1731,7 @@ h2,
 }
 
 .footer__heading {
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
