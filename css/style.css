@@ -736,6 +736,11 @@ h2,
           flex-grow: 1;
 }
 
+.header__logo .logo {
+  position: relative;
+  left: -13px;
+}
+
 .header__icons_and_button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -920,6 +925,7 @@ h2,
   overflow: hidden;
   padding: 5px 15px;
   gap: 5px;
+  background-color: #ffffff;
 }
 
 .tags-hero__icon {
@@ -1005,6 +1011,10 @@ h2,
   height: 192px;
   border-radius: 30px;
   overflow: hidden;
+}
+
+.hero-list-images__item--hidden-desktop {
+  display: none;
 }
 
 .hero-list-images__item:hover img {
@@ -2167,8 +2177,36 @@ h2,
     width: 15px;
   }
 
+  .hero-list-images {
+    animation: scroll 30s linear infinite;
+    width: max-content;
+    gap: inherit;
+  }
+
+  .hero__images {
+    overflow: hidden;
+    margin: 0 -30px;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .header__logo .logo {
+    left: -7px;
+  }
+
   .hero-list-images__item {
     height: 178px;
+    width: 178px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    margin-right: 14px;
   }
 
   .hero-list-images__item--last {
@@ -2183,6 +2221,14 @@ h2,
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  .hero-list-images__item--hidden-desktop {
+    display: block;
+  }
+
+  .section--hero {
+    overflow: hidden;
   }
 
   .our-prices__item {
@@ -2548,18 +2594,18 @@ h2,
   }
 
   .hero-list-images {
-    overflow-x: auto;
+    /*overflow-x: auto;
     overflow-y: hidden;
     margin: 0 -30px;
     padding: 0 14px 0 30px;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;*/
   }
 
   .hero-list-images::-webkit-scrollbar {
-    display: none;
-    scroll-behavior: smooth;
+    /*display: none;
+    scroll-behavior: smooth;*/
   }
 
   .hero-list-images__item {
